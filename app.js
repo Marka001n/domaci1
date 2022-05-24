@@ -53,7 +53,7 @@ function displayCitiesAsTable() {
         <li>${grad.znamenitost2}</li>
         <li>${grad.znamenitost3}</li>
         </ul></td>
-        <td><img src=./slike/${grad.foto} height = "100px" width="190px"></td>
+        <td><img src=${grad.foto} height = "100px" width="190px"></td>
         </tr>`
     });
     document.getElementById('cities_body').innerHTML = tableContent;
