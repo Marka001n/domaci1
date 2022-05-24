@@ -1,0 +1,42 @@
+#link {
+    text-decoration: none;
+    color: black;
+}
+
+th {
+    border: 1px black solid;
+}
+
+.naslov {
+    font-size: 28px;
+    color: rgb(67, 64, 64);
+    text-align: center;
+    font-weight: bold;
+}
+
+.tabelaW {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.tabela {
+    width: 100%;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #E9ECEF;
+}
+
+.zaglavljetabele {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+ul {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
